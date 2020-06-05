@@ -1,0 +1,35 @@
+{
+  "name": "ex-rest-registration",
+  "version": "0.0.2",
+  "description": "Test container for the Rest Registration feature proposal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fonoster/ex-rest-registration"
+  },
+  "keywords": [
+    "routr",
+    "rest",
+    "sip",
+    "register"
+  ],
+  "author": "Pedro Sanders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fonoster/ex-rest-registration/issues"
+  },
+  "homepage": "https://github.com/fonoster/ex-rest-registration",
+  "main": "index.js",
+  "bin": {
+    "run-server": "index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "json-beautify": "^1.1.1",
+    "md5-hex": "^3.0.1"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">= 6.0.0"
+  }
+}
