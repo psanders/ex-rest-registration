@@ -1,4 +1,4 @@
-# Experimental Rest Registration
+# Routr Rest Registration(Experimental)
 
 > Creates a test endpoint for the the Rest Registration feature proposal
 
