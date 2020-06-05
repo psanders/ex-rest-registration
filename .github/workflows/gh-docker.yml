@@ -1,0 +1,22 @@
+name: publish to docker hub
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'   
+      - name: Get the version
+        id: get_version
+        run: echo ::set-output name=VERSION::$(node -e "console.log(require('./package.json').version)")      
+      - name: Publish
+        uses: elgohr/Publish-Docker-Github-Action@master
+        with:
+          name: fonoster/ex-rest-registration
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          workdir: .
+          tags: "latest,${{ steps.get_version.outputs.VERSION }}"
