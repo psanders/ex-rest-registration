@@ -1,6 +1,6 @@
 # Routr Rest Registration(Experimental)
 
-> Creates a test endpoint for the the Rest Registration feature proposal
+> Creates a test endpoint for Routr's rest registration feature proposal
 
 ![publish to docker](https://github.com/fonoster/ex-rest-registration/workflows/publish%20to%20docker%20hub/badge.svg)
 
