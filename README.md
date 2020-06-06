@@ -12,7 +12,7 @@ You can see all images available to pull from Docker Hub via the [Tags](https://
 
 ## Installation
 
-Simply add to the containers section of your deployment. For example:
+To install in K8s, simply add to the containers section of your deployment. For example:
 
 ```
 ...
