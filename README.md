@@ -61,6 +61,9 @@ HTTP/1.1 200 OK
 Environment variables are used in the entry point script to render configuration templates. You can specify the values of these variables in Kubernetes manifests in the `env` array.
 
 - `PORT` - Container port. Defaults to `3000`
+- `DOMAIN` - Test domain. Defaults to `sip.local`
+- `USERNAME` - Test username. Defaults to `1001`
+- `SECRET` - Test secret. Defaults to `1234`
 
 ## Exposed ports
 
