@@ -12,6 +12,19 @@ You can see all images available to pull from Docker Hub via the [Tags](https://
 
 ## Installation
 
+You can clone this repository and manually build it.
+
+```
+cd fonoster/ex-rest-registration\:%%VERSION%%
+docker build -t fonoster/ex-rest-registration:%%VERSION%% .
+```
+
+Otherwise you can pull this image from docker index.
+
+```
+docker pull fonoster/ex-rest-registration:%%VERSION%%
+```
+
 To install in K8s, simply add to the containers section of your deployment. For example:
 
 ```
