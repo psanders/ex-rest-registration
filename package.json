@@ -1,6 +1,6 @@
 {
   "name": "ex-rest-registration",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Test container for the Rest Registration feature proposal",
   "repository": {
     "type": "git",
