@@ -47,7 +47,7 @@ curl localhost:3000/api/device/1001/authenticate
 **Sample call**
 
 ```
-GET /api/device/{id}/authenticate
+POST /api/device/{id}/authenticate
 {
   Authorization: "Digest",
   username: "1001",
