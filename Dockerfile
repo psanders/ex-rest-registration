@@ -1,5 +1,5 @@
 FROM openjdk:13-ea-alpine3.10
-LABEL maintainer="Pedro Sanders <fonosterteam@fonoster.com>"
+LABEL maintainer="Pedro Sanders <psanders@fonoster.com>"
 
 COPY package.json /ex-rest-registration/
 COPY index.js /ex-rest-registration/
